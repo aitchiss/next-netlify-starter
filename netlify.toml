@@ -4,6 +4,8 @@
 
 [[plugins]]
   package = "netlify-plugin-cypress"
+
+[[plugins]]
   package = "@netlify/plugin-a11y"
 
 [context.production.environment]
