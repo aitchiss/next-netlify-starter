@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Oooh look - I changed the header!!!" />
+        <Header title="some small change" />
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
