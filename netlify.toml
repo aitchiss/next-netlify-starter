@@ -5,8 +5,8 @@
 [[plugins]]
   package = "netlify-plugin-cypress"
 
-[context.production]
-  environment = { NETLIFY_VERBOSE = "1" }
+[context.production.environment]
+  RANDOM_ENV_VARIABLE = "hello_world"
 
-[context.deploy-preview]
-  environment = { NETLIFY_VERBOSE = "0" }
+[context.deploy-preview.environment]
+  RANDOM_ENV_VARIABLE = "something"
