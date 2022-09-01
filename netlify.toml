@@ -4,3 +4,9 @@
 
 [[plugins]]
   package = "netlify-plugin-cypress"
+
+[context.production]
+  environment = { NETLIFY_VERBOSE = "true" }
+
+[context.deploy-preview]
+  environment = { NETLIFY_VERBOSE = "false" }
