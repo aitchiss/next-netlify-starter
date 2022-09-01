@@ -8,5 +8,5 @@
 [context.production.environment]
   RANDOM_ENV_VARIABLE = "hello_world"
 
-[context.deploy-preview.environment]
-  RANDOM_ENV_VARIABLE = "something"
+[context.deploy-preview]
+  command = "echo 'deploy preview'"
